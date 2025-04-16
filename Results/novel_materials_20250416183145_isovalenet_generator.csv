@@ -1,0 +1,18 @@
+Substituted Element,Coordination,Charge,Ionic Radius,Novel Material,icsd_ids,True Positive,Synthetic P-Value,Conditions,Condition Valueargs,Condition Value
+Am,VIII,2,1.26,CsAmI3,,4.0,23.529411764705884,charge,charge,2.0
+Ba,VIII,2,1.42,CsBaI3,,,,coordination,coordination,VIII
+Ca,VIII,2,1.12,CsCaI3,,,,Hume-Rothery,target_property,Ionic Radius
+Cd,VIII,2,1.1,CsCdI3,,,,,target_percentage,35
+Co,VIII,2,0.9,CsCoI3,,,,,,
+Dy,VIII,2,1.19,CsDyI3,['[300286]'],,,,,
+Eu,VIII,2,1.25,CsEuI3,,,,,,
+Fe,VIII,2,0.92,CsFeI3,,,,,,
+Hg,VIII,2,1.14,CsHgI3,,,,,,
+Mg,VIII,2,0.89,CsMgI3,['[87262]'],,,,,
+Mn,VIII,2,0.96,CsMnI3,"['[10042, 15951, 15950, 15952, 15949]']",,,,,
+Nd,VIII,2,1.29,CsNdI3,,,,,,
+Ra,VIII,2,1.48,CsRaI3,,,,,,
+Sm,VIII,2,1.27,CsSmI3,,,,,,
+Sr,VIII,2,1.26,CsSrI3,,,,,,
+Yb,VIII,2,1.14,CsYbI3,['[72342]'],,,,,
+Zn,VIII,2,0.9,CsZnI3,,,,,,
