@@ -2,15 +2,15 @@
 A synthetic hypothesis testing environment for testing synthesizability filters.
 
 ## Filters
-Two set of filters have been implemented. The filters are in the <b>Filters</b> directory.\
+Two set of filters have been implemented. The filters are in the <b>Filters</b> directory.
 1. stoichiometry_filters.py: Filters a list of novel materials based on whether their stoichiometries have been previously seen in literature.
 2. isovalent_generator.py: generates materials using isovalent substituition rules.
 3. utils.py: contains various utlity functions used for finding icsd matches, saving the data, plotting etc.
 
 
 ## Run
-1. To run the <b>stoichiometry filter</b> use  <b>Test_Bench_Stoichiometry_filter.ipnyb</b>\
-2. To run the <b>isovalent substitution filter</b> use  <b>Test_Bench_isovalent_generator.ipynb</b>\
+1. To run the <b>stoichiometry filter</b> use  <b>Test_Bench_Stoichiometry_filter.ipnyb</b>
+2. To run the <b>isovalent substitution filter</b> use  <b>Test_Bench_isovalent_generator.ipynb</b>
 
 
 ## Materials
