@@ -55,14 +55,10 @@ def icsd_finder(icsd_true, nov_mat):
     matches = matches[['pretty_formula', 'icsd_ids']]
     true_positive = len(matches['pretty_formula'])
     for idx, materials in enumerate(matches['pretty_formula']):
-        icsd = matches['icsd_ids'].iloc[idx]
+        icsd = [matches['icsd_ids'].iloc[idx]] #make sure this is a list (that's why the square brackets)
         for idy, mat_new in enumerate(nov_mat['Novel Material']):
             if materials == mat_new:
-                if icsd_ids[idy] is None or icsd_ids[idy] == '':
-                    #icsd_ids[idy] = [','.join(map(str, icsd))]
-                    icsd_ids[idy] = ','.join(map(str, icsd))
-                else:
-                    icsd_ids[idy] = [icsd_ids[idy] + ',' + ','.join(map(str, icsd))]   
+                icsd_ids[idy] = [','.join(map(str, icsd))]
     nov_mat['icsd_ids'] = icsd_ids
     return nov_mat, true_positive
 
