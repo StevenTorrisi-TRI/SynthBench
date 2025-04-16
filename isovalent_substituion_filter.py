@@ -24,3 +24,5 @@ def match_stoichimetric_combinations(df: pd.DataFrame) -> pd.Series:
     print("Total number of materials that were passed: ", len(df[df["isovalent"] == True]))
     utils.save("isovalent_substitution", df)
     return matches
+
+
