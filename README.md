@@ -25,6 +25,6 @@ The results generated from running the *.ipnyb notebooks are stored in the <b>Re
 
 ## Packages
 1. python == 3.12.0
-2. matplotlip == 3.10.0
+2. matplotlib == 3.10.0
 3. pandas == 2.2.3
 
